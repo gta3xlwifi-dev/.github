@@ -1,7 +1,7 @@
 # Bringing New Life to the Galaxy Tab A 10.1 (SM-T510)
-## Our Mission
+## Goals
 
-We're a community dedicated to breathing fresh life into the Samsung Galaxy Tab A 10.1 (SM-T510) through custom ROM development. Inspired by the great work of @Magendanz on the initial LineageOS 18.1 TWRP builds, we aim to continue pushing the boundaries of what's possible on this device.
+We're dedicated to breathing life into the Samsung Galaxy Tab A 10.1 (SM-T510) through custom ROM development. Inspired by the great work of @Magendanz on the initial LineageOS 18.1 TWRP builds, we aim to continue pushing the boundaries of what's possible on this device.
 
 # How You Can Contribute
 
