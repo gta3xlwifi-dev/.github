@@ -35,7 +35,7 @@ Installation Instructions:
 - I would refer to Magendanz official and initial post. The instructions are available above. For sake of availability, I will provide them down below.
 
 # From OEM stock firmware:
-- Unlock bootloader
+- [Unlock bootloader](https://www.ifixit.com/Guide/How+to+unlock+the+bootloader+of+an+Android+Phone/152629)
 - Power the device off
 - Hold Vol Up & Vol Down buttons while plugging the USB-C to PC to enter Download mode
  
