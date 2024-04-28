@@ -12,16 +12,45 @@ Spread the Word: Share our project with other Galaxy Tab A users!
 
 # Getting Started
 
-Prerequisites: []
-ROM Downloads: []
-Installation Instructions: []
-Reporting Issues: []
+Prerequisites:
+- [Odin v3.13.1](https://build.nethunter.com/samsung-tools/)
+  - Be weary, plenty of ¨official¨ Odin links. Odin is Samsung´s proprietary software which has never been officially released by them
+  - XDA threads or Nethunter repository, the most reputable sources for finding it. I choose the latter
+- Fresh install or flash of the [latest available firmware](https://samfw.com/firmware/SM-T510/)
+  - for us, this would be the T510XXU5CWA1 build.
+ 
+ROM Downloads: 
+- [Lineage-20](https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi/releases/tag/20.0-20230901)
+  - [XDA thread](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-20-0-for-galaxy-tab-a-10-1-2019.4623077/)
+ 
+- [Lineage-19.1](https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi/releases/tag/19.1-20230403)
+  - [XDA Thread](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-19-1-for-galaxy-tab-a-10-1-2019.4494595/)
+ 
+
+Installation Instructions: 
+[XDA Thread](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-20-0-for-galaxy-tab-a-10-1-2019.4623077/)
+- I would refer to Magendanz official and initial post. The instructions are available above. For sake of availability, I will provide them down below.
+
+# From OEM stock firmware:
+- Unlock bootloader
+- Power the device off
+- Hold Vol Up & Vol Down buttons while plugging the USB-C to PC to enter Download mode
+ 
+- Install custom ROM tarball (.tar.md5 file) to AP with Odin
+- If TWRP launches, factory reset with Wipe->Format Data and reboot to system. (Not necessary for incremental upgrades.)
+
+# From existing TWRP install:
+- Hold Power & Vol Up during restart to enter TWRP recovery
+- Tap Install, Install Image, select your update (.img file), OR Install via [ZIP archive](https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi/releases/tag/20.0-20230901). 
+- Factory reset with Wipe->Format Data. (Not necessary for incremental upgrades.)
+- Reboot to system
+
+Reporting Issues: [Issues](https://github.com/gta3xlwifi-dev/.github/issues)
+- Ideally, right here.
 
 ## Important Notice
 
 These ROMs are under active development. Expect surprises (both good and bad!).  Please back up your data before flashing and always read instructions carefully.
-
-Let's Build Together!
 
 
 Fun Fact: Did you know the Galaxy Tab A 10.1 was one of the first budget tablets with a full HD display? 
