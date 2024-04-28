@@ -6,9 +6,12 @@ We're dedicated to breathing life into the Samsung Galaxy Tab A 10.1 (SM-T510) t
 # How You Can Contribute
 
 Testing: Download our experimental builds, provide feedback, and help us squash bugs 🐛!
+
 Development: If you've got coding chops, dive into the codebase, suggest features, and work on optimizations.
+
 Documentation: Help us create clear guides and tutorials to make the ROM accessible to everyone.
-Spread the Word: Share our project with other Galaxy Tab A users!
+
+Spread the Word: Share our project with other Galaxy Tab A users and/or Developers.
 
 # Getting Started
 
