@@ -37,7 +37,7 @@ Installation Instructions:
 # From OEM stock firmware:
 - [Unlock bootloader](https://www.ifixit.com/Guide/How+to+unlock+the+bootloader+of+an+Android+Phone/152629)
 - Power the device off
-- Hold Vol Up & Vol Down buttons while plugging the USB-C to PC to enter Download mode
+- Hold Vol Up & Vol Down buttons while plugging the USB-C from PC to tablet to enter Download mode
  
 - Install custom ROM tarball (.tar.md5 file) to AP with Odin
 - If TWRP launches, factory reset with Wipe->Format Data and reboot to system. (Not necessary for incremental upgrades.)
