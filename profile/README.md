@@ -3,20 +3,31 @@
 
 We're dedicated to breathing life into the Samsung Galaxy Tab A 10.1 (SM-T510) through custom ROM development. Inspired by the great work of @Magendanz on the initial LineageOS 18.1 TWRP builds, we aim to continue pushing the boundaries of what's possible on this device.
 
+
 ## Moving Beyond GSIs
 
 While projects like PHH and AndyYan GSIs bring new life to older devices, there are limitations. With Google ending official security support, backporting patches becomes trickier, and our aging hardware makes achieving a smooth experience tougher.
 
+
+
 ## The Challenges Ahead
 
+
 **RAM Restrictions:** Modern Android versions ideally want 3GB+ of RAM, something our Tab A lacks.
+
 **Outdated Kernel:** We're stuck with a legacy kernel (v4.4.xx), while newer Android requires features like eBPF which we have a semi-working implementation of
+
+
 
 ## Aiming High, Staying Realistic
 
-I love a good challenge! While a perfectly stable Android 12+ build might be out of reach, I'm committed to creating the best possible LineageOS experience for our SM-T510 within its limitations.
+
+I love a good challenge! While a perfectly stable Android 12+ build might be out of reach, I'm committed to creating the best possible LineageOS experience for our SM-T510 within its limitations
+
+
 
 # How You Can Contribute
+
 
 Testing: Download our experimental builds, provide feedback, and help us squash bugs 🐛!
 
@@ -25,6 +36,8 @@ Development: If you've got coding chops, dive into the codebase, suggest feature
 Documentation: Help us create clear guides and tutorials to make the ROM accessible to everyone.
 
 Spread the Word: Share our project with other Galaxy Tab A users and/or Developers.
+
+
 
 # Getting Started
 
