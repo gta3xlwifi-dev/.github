@@ -73,8 +73,8 @@ Installation Instructions:
 - Factory reset with Wipe->Format Data. (Not necessary for incremental upgrades.)
 - Reboot to system
 
-Reporting Issues: [Issues](https://github.com/gta3xlwifi-dev/.github/issues)
-- Ideally, right here.
+Reporting Issues: 
+- Ideally, right [here](https://github.com/gta3xlwifi-dev/.github/issues).
 
 ## Important Notice
 
