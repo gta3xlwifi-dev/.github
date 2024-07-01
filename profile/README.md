@@ -26,8 +26,8 @@ I have left my development on the backburner as of late, medical studies take pr
 
 ### Changelog
 
-- (gta3xlwifi-kernel)[https://github.com/gta3xlwifi-dev/android_kernel_gta3xlwifi] - June 30, 2024: Import OEM changes and refactor kernel base on upstream Android common kernel (deprecated/4.4.p)
-- (gta3xlwifi-device)[https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi] - July 1, 2024: Refactoring, messy codebase. Decided to start over for my own sanity, will likely do so with the AOSP tree
+- [gta3xlwifi-kernel](https://github.com/gta3xlwifi-dev/android_kernel_gta3xlwifi) - June 30, 2024: Import OEM changes and refactor kernel base on upstream Android common kernel (deprecated/4.4.p)
+- [gta3xlwifi-device](https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi) - July 1, 2024: Refactoring, messy codebase. Decided to start over for my own sanity, will likely do so with the AOSP tree
 
 # How You Can Contribute
 
