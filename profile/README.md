@@ -20,12 +20,14 @@ While projects like PHH and AndyYan GSIs revitalize older devices, they face cha
 
 ## Development Notes
 
-I have left my development on the backburner as of late, medical studies take precedence over free time! Wish it was not the case.
+I have left my development on the backburner as of late, medical studies take precedence over free time. Wish it was not the case.
 
-- Starting my device tree from scratch, and aiming to carry out what I intended.
-- 
+- Starting my device tree from scratch, and aiming to carry out what I intended. F
 
+### Changelog
 
+- (gta3xlwifi-kernel)[https://github.com/gta3xlwifi-dev/android_kernel_gta3xlwifi] - June 30, 2024: Import OEM changes and refactor kernel base on upstream Android common kernel (deprecated/4.4.p)
+- (gta3xlwifi-device)[https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi] - July 1, 2024: Refactoring, messy codebase. Decided to start over for my own sanity, will likely do so with the AOSP tree
 
 # How You Can Contribute
 
