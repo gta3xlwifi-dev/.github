@@ -18,10 +18,12 @@ While projects like PHH and AndyYan GSIs revitalize older devices, they face cha
 
 
 
-## Aiming High, Staying Realistic
+## Development Notes
 
+I have left my development on the backburner as of late, medical studies take precedence over free time! Wish it was not the case.
 
-I love a good challenge! While a perfectly stable Android 12+ build might be out of reach, I'm committed to creating the best possible LineageOS experience for our SM-T510 within its limitations
+- Starting my device tree from scratch, and aiming to carry out what I intended.
+- 
 
 
 
