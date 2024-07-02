@@ -22,7 +22,7 @@ While projects like PHH and AndyYan GSIs revitalize older devices, they face cha
 
 I have left my development on the backburner as of late, medical studies take precedence over free time. Wish it was not the case.
 
-- Starting my device tree from scratch, and aiming to carry out what I intended. F
+- Starting my device tree from scratch, and aiming to carry out what I intended. 
 
 ### Changelog
 
