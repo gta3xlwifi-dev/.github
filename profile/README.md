@@ -1,88 +1,76 @@
-# Bringing New Life to the Galaxy Tab A 10.1 (SM-T510)
-## Goals
+# Breathing Life into the Galaxy Tab A 10.1 (SM-T510)
 
-Dedicated to breathing life into the Samsung Galaxy Tab A 10.1 (SM-T510) through custom ROM development. Inspired by the great work of @Magendanz on the initial LineageOS 18.1 TWRP builds, lets pusg the boundaries of what's possible on this device.
+**Goals**
 
+This project is dedicated to revitalizing the Samsung Galaxy Tab A 10.1 (SM-T510) through custom ROM development. Building upon the excellent foundation laid by @Magendanz's initial LineageOS 18.1 TWRP builds, we aim to push the boundaries of what's possible on this device.
 
-## Moving Beyond GSIs
+## Why Custom ROMs?
 
-While projects like PHH and AndyYan GSIs revitalize older devices, they face challenges. Google's discontinued security support makes backporting patches difficult, and our device's aging Exynos ARM architecture adds another layer of complexity.
+While projects like PHH and AndyYan GSIs breathe new life into older devices, they face limitations. Google's discontinued security support for this device makes backporting patches challenging, and its aging Exynos ARM architecture adds another layer of complexity. Custom ROMs offer a way to overcome these obstacles and provide a more up-to-date and optimized Android experience.
 
+## Challenges We Face
 
-## The Challenges Ahead
+* **RAM Restrictions:** Modern Android versions ideally require 3GB+ of RAM, but we're working with less.
+* **Outdated Kernel:** We're limited by a legacy kernel (v4.4.xx), while newer Android versions need features like eBPF (which we have a semi-working implementation of).
 
+## Development Status
 
-**RAM Restrictions:** Modern Android versions ideally want 3GB+ of RAM, we are working with less than that.
+**Note:** Development is currently on hold due to medical studies taking precedence. We hope to resume work soon!
 
-**Outdated Kernel:** We're stuck with a legacy kernel (v4.4.xx), while newer Android requires features like eBPF which we have a semi-working implementation of
-
-
-
-## Development Notes
-
-I have left my development on the backburner as of late, medical studies take precedence over free time. Wish it was not the case.
-
-- Starting my device tree from scratch, and aiming to carry out what I intended. 
+* The device tree is being rebuilt from scratch for a cleaner foundation.
+* AOSP tree refactoring is also planned.
 
 ### Changelog
 
-- [gta3xlwifi-kernel](https://github.com/gta3xlwifi-dev/android_kernel_gta3xlwifi) - June 30, 2024: Import OEM changes and refactor kernel base on upstream Android common kernel (deprecated/4.4.p)
-- [gta3xlwifi-device](https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi) - July 1, 2024: Refactoring, messy codebase. Decided to start over for my own sanity, will likely do so with the AOSP tree
+* **gta3xlwifi-kernel:** June 30, 2024: Imported OEM changes and refactored the kernel base on upstream Android common kernel (deprecated/4.4.p).
+* **gta3xlwifi-device:** July 1, 2024: Refactored the messy codebase. Decided to start over for better maintainability. Will likely do the same with the AOSP tree.
 
-# How You Can Contribute
+## How You Can Contribute
 
+* **Testing:** Download our experimental builds, provide feedback, and help us identify and fix bugs.
+* **Development:** If you have coding skills, dive into the codebase, suggest features, and work on optimizations.
+* **Documentation:** Help us create clear guides and tutorials to make the ROM accessible to everyone.
+* **Spread the Word:** Share our project with other Galaxy Tab A users and developers.
 
-Testing: Download our experimental builds, provide feedback, and help us squash bugs 🐛!
+## Getting Started
 
-Development: If you've got coding chops, dive into the codebase, suggest features, and work on optimizations.
+**Prerequisites:**
 
-Documentation: Help us create clear guides and tutorials to make the ROM accessible to everyone.
+* **Odin v3.13.1:**
+    * Be cautious of "official" Odin links. Odin is Samsung's proprietary software and has never been officially released.
+    * Reputable sources: XDA threads or the Nethunter repository. 
+* Fresh install or flash of the [latest available firmware](https://samfw.com/firmware/SM-T510/) (T510XXU5CWA1).
 
-Spread the Word: Share our project with other Galaxy Tab A users and/or Developers.
+**ROM Downloads:**
 
+* **Lineage-20:** 
+    * XDA Thread: [Link](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-20-0-for-galaxy-tab-a-10-1-2019.4623077/)
+* **Lineage-19.1:**
+    * XDA Thread: [Link](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-19-1-for-galaxy-tab-a-10-1-2019.4494595/)
 
+**Installation Instructions:**
 
-# Getting Started
+Refer to the [XDA Thread](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-20-0-for-galaxy-tab-a-10-1-2019.4623077/) for detailed instructions.
 
-Prerequisites:
-- [Odin v3.13.1](https://build.nethunter.com/samsung-tools/)
-  - Be weary, plenty of ¨official¨ Odin links. Odin is Samsung´s proprietary software which has never been officially released by them
-  - XDA threads or Nethunter repository, the most reputable sources for finding it. I choose the latter
-- Fresh install or flash of the [latest available firmware](https://samfw.com/firmware/SM-T510/)
-  - for us, this would be the T510XXU5CWA1 build.
- 
-ROM Downloads: 
-- [Lineage-20](https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi/releases/tag/20.0-20230901)
-  - [XDA thread](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-20-0-for-galaxy-tab-a-10-1-2019.4623077/)
- 
-- [Lineage-19.1](https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi/releases/tag/19.1-20230403)
-  - [XDA Thread](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-19-1-for-galaxy-tab-a-10-1-2019.4494595/)
- 
+**Brief Summary:**
 
-Installation Instructions: 
-[XDA Thread](https://xdaforums.com/t/rom-sm-t510-unofficial-lineageos-20-0-for-galaxy-tab-a-10-1-2019.4623077/)
-- I would refer to Magendanz official and initial post. The instructions are available above. For sake of availability, I will provide them down below.
+* **From OEM Stock Firmware:**
+    1. Unlock the bootloader.
+    2. Enter Download mode (Vol Up + Vol Down while plugging in USB-C).
+    3. Use Odin to flash the custom ROM (.tar.md5 file) to AP.
+    4. If TWRP launches, factory reset and reboot to system.
+* **From Existing TWRP Install:**
+    1. Enter TWRP recovery (Power + Vol Up during restart).
+    2. Install the update (.img file or ZIP archive).
+    3. Factory reset (if not an incremental upgrade).
+    4. Reboot to system.
 
-# From OEM stock firmware:
-- [Unlock bootloader](https://www.ifixit.com/Guide/How+to+unlock+the+bootloader+of+an+Android+Phone/152629)
-- Power the device off
-- Hold Vol Up & Vol Down buttons while plugging the USB-C from PC to tablet to enter Download mode
- 
-- Install custom ROM tarball (.tar.md5 file) to AP with Odin
-- If TWRP launches, factory reset with Wipe->Format Data and reboot to system. (Not necessary for incremental upgrades.)
+**Reporting Issues:**
 
-# From existing TWRP install:
-- Hold Power & Vol Up during restart to enter TWRP recovery
-- Tap Install, Install Image, select your update (.img file), OR Install via [ZIP archive](https://github.com/gta3xlwifi-dev/android_device_samsung_gta3xlwifi/releases/tag/20.0-20230901). 
-- Factory reset with Wipe->Format Data. (Not necessary for incremental upgrades.)
-- Reboot to system
-
-Reporting Issues: 
-- Ideally, right [here](https://github.com/gta3xlwifi-dev/.github/issues).
+Please report any issues [here](https://github.com/gta3xlwifi-dev/.github/issues).
 
 ## Important Notice
 
-These ROMs are under active development. Expect surprises (both good and bad!).  Please back up your data before flashing and always read instructions carefully.
+These ROMs are under active development. Expect things to change and potential bugs. **Back up your data before flashing** and always read instructions carefully.
 
-
-Fun Fact: Did you know the Galaxy Tab A 10.1 was one of the first budget tablets with a full HD display? 
+**Fun Fact:** The Galaxy Tab A 10.1 was one of the first budget tablets to feature a full HD display!
