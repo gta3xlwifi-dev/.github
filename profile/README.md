@@ -4,7 +4,7 @@
 
 This project aims to give life to the Samsung Galaxy Tab A 10.1 (SM-T510) through custom ROM development, by building upon the foundation laid by @Magendanz's initial LineageOS 18.1 TWRP builds.
 
-While projects like PHH and AndyYan GSIs give new life into older devices, they face limitations. Google's discontinued security support for this device makes backporting patches challenging, and the aging Exynos ARM architecture adds another layer of trouble
+PHH and AndyYan GSIs allow older devices to test software other than stock Android but they do face limitations. Google has long-since discontinued security support for this device makes backporting patches challenging, and the aging Exynos ARM architecture adds another layer of trouble
 
 ## Challenges We Face
 
