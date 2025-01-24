@@ -2,37 +2,18 @@
 
 **Goals**
 
-This project is dedicated to revitalizing the Samsung Galaxy Tab A 10.1 (SM-T510) through custom ROM development. Building upon the excellent foundation laid by @Magendanz's initial LineageOS 18.1 TWRP builds, we aim to push the boundaries of what's possible on this device.
+This project aims to give life to the Samsung Galaxy Tab A 10.1 (SM-T510) through custom ROM development, by building upon the foundation laid by @Magendanz's initial LineageOS 18.1 TWRP builds.
 
-## Why Custom ROMs?
-
-While projects like PHH and AndyYan GSIs breathe new life into older devices, they face limitations. Google's discontinued security support for this device makes backporting patches challenging, and its aging Exynos ARM architecture adds another layer of complexity. Custom ROMs offer a way to overcome these obstacles and provide a more up-to-date and optimized Android experience.
+While projects like PHH and AndyYan GSIs give new life into older devices, they face limitations. Google's discontinued security support for this device makes backporting patches challenging, and the aging Exynos ARM architecture adds another layer of trouble
 
 ## Challenges We Face
 
-* **RAM Restrictions:** Modern Android versions ideally require 3GB+ of RAM, but we're working with less.
-* **Outdated Kernel:** We're limited by a legacy kernel (v4.4.xx), while newer Android versions need features like eBPF (which we have a semi-working implementation of).
+* **RAM Restrictions:** Modern Android ideally needs 3GB+ of RAM, we're working with less than that
+* **Outdated Kernel:** We're limited by a legacy kernel (v4.4.xx), while newer Android versions need features like eBPF
 
 ## Development Status
 
-**Note:** Development is currently on hold due to medical studies taking precedence. We hope to resume work soon!
-
-* The device tree is being rebuilt from scratch for a cleaner foundation.
-* AOSP tree refactoring is also planned.
-
-### Changelog
-
-* **gta3xlwifi-kernel:** June 30, 2024: Imported OEM changes and refactored the kernel base on upstream Android common kernel (deprecated/4.4.p).
-* **gta3xlwifi-device:** July 1, 2024: Refactored the messy codebase. Decided to start over for better maintainability. Will likely do the same with the AOSP tree.
-
-## How You Can Contribute
-
-* **Testing:** Download our experimental builds, provide feedback, and help us identify and fix bugs.
-* **Development:** If you have coding skills, dive into the codebase, suggest features, and work on optimizations.
-* **Documentation:** Help us create clear guides and tutorials to make the ROM accessible to everyone.
-* **Spread the Word:** Share our project with other Galaxy Tab A users and developers.
-
-## Getting Started
+**Note:** Development is on hold due to my medical studies taking precedence
 
 **Prerequisites:**
 
@@ -65,11 +46,7 @@ Refer to the [XDA Thread](https://xdaforums.com/t/rom-sm-t510-unofficial-lineage
     3. Factory reset (if not an incremental upgrade).
     4. Reboot to system.
 
-**Reporting Issues:**
-
-Please report any issues [here](https://github.com/gta3xlwifi-dev/.github/issues).
-
-## Important Notice
+## Notice
 
 These ROMs are under active development. Expect things to change and potential bugs. **Back up your data before flashing** and always read instructions carefully.
 
