@@ -1,4 +1,4 @@
-# Breathing Life into the Galaxy Tab A 10.1 (SM-T510)
+# Galaxy Tab A 10.1 (SM-T510) Development
 
 **Goals**
 
